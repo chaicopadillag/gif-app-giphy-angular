@@ -7,7 +7,7 @@ import { ApiResponse, GiPhy } from '../interfaces/gyphy.interface';
   providedIn: 'root',
 })
 export class GifsService {
-  private API_KEY_GIPHY = 'aU9tCU0BXwmoJQpnoJ0Od2BGAdbywoHz';
+  private API_KEY_GIPHY = '';
   private API_GIPHY = 'https://api.giphy.com/v1/gifs';
   private keywords: string[] = [];
   private _gifs: GiPhy[] = [];

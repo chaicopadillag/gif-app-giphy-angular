@@ -1,0 +1,14 @@
+<div class="grid grid-cols-3 gap-4 mt-6">
+  <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden" *ngFor="let gif of gifs">
+
+    <div class="flex items-end justify-end h-56 w-full bg-cover">
+
+      <img src="{{gif.images.preview_gif.url}}" class="object-cover rounded w-full h-56 ">
+    </div>
+    <div class="px-5 py-3">
+      <h3 class="text-gray-700 uppercase">{{gif.title}}</h3>
+    </div>
+
+
+  </div>
+</div>

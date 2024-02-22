@@ -1,0 +1,8 @@
+<div class="flex items-center justify-items-stretch h-56 w-full bg-cover">
+
+  <img src="{{gifGiPhy.images.preview_gif.url}}" class="object-cover rounded w-full h-56" (load)="onLoadImg()">
+  <lazy-image-component *ngIf="isLoanding"></lazy-image-component>
+</div>
+<div class="px-5 py-3">
+  <h3 class="text-gray-700 uppercase">{{gifGiPhy.title}}</h3>
+</div>
